@@ -1,0 +1,59 @@
+@charset "utf-8";
+/*2014.08.10已经是老版本了*/
+/* CSS Document */
+body{margin:0;padding:0;font:12px sans-serif;text-align:center;background:#fff url('../img/bg000000.png') repeat-x;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0;margin:0;}
+ul{list-style-type:none;}
+img{border:0;}
+ol,ul{list-style:none;}
+.w980{width:980px;text-align:left;margin: 0 auto;}
+a{text-decoration:none;}
+.red{color:#Ff0000;}
+.orange{color:#F60;font-weight:bold;}
+.gray{color:#CE8098;}
+.clear{clear:both;}
+.fl{float:left; display:inline;}
+.fr{float:right; display:inline;}
+.pc_overflow{ overflow:hidden; zoom:1;}
+/*a链接颜色*/
+.txt1{color:#BD2115;}
+.txt2{color:#666666;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+.mt30{margin-top:30px;}
+.mt35{margin-top:35px;}
+.mt40{margin-top:40px;}
+.mt45{margin-top:45px;}
+.mt50{margin-top:50px;}
+
+.tc{
+	text-align:center;
+}
+.tl{
+	text-align:left;
+}
+.tr{
+	text-align:right;
+}
+.button, #main-content table tfoot td .bulk-actions select, .pagination a.number, form input.text-input, form textarea, form .wysiwyg, form select, .dp-popup {
+    border-radius: 4px 4px 4px 4px;
+}
+form input.text-input, form select, form textarea, form .wysiwyg {
+    border: 1px solid #D5D5D5;
+    color: #333333;
+    font-size: 13px;
+    padding: 6px;
+}
+.button {
+    background: url("../img/bg-button-green.gif") repeat-x scroll left top #0B85C6 !important;
+    border: 1px solid #0B85C6 !important;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 12px !important;
+    padding: 4px 7px !important;
+}
